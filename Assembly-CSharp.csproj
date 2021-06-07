@@ -55,6 +55,9 @@
   <ItemGroup>
      <Compile Include="Assets\Destroyed_city_FREE\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Mixamo\Magic Pack\Demo\CameraScroll.cs" />
+     <Compile Include="Assets\ProgressBar\Scene\Demo.cs" />
+     <Compile Include="Assets\ProgressBar\Script\ProgressBar.cs" />
+     <Compile Include="Assets\ProgressBar\Script\ProgressBarCircle.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />

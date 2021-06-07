@@ -5,6 +5,8 @@ using UnityEngine;
 public class CharacterController : MonoBehaviour
 {
 
+    private int totalScore;
+
     public int totalLife;
     
     public Rigidbody basicAttack;
@@ -14,6 +16,7 @@ public class CharacterController : MonoBehaviour
 
     void Start()
     {
+        totalScore = 0;
         anim = GetComponent<Animator>();
     }
 
