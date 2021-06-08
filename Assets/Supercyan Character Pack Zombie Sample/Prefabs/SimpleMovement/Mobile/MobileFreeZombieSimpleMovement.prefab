@@ -773,6 +773,8 @@ GameObject:
   - component: {fileID: 54883072352018046}
   - component: {fileID: 136541158847485364}
   - component: {fileID: 114826528240450432}
+  - component: {fileID: 590136592656317803}
+  - component: {fileID: 1455883582}
   m_Layer: 0
   m_Name: MobileFreeZombieSimpleMovement
   m_TagString: Untagged
@@ -862,6 +864,40 @@ MonoBehaviour:
   m_animator: {fileID: 95050920868106308}
   m_rigidBody: {fileID: 54883072352018046}
   m_controlMode: 0
+--- !u!195 &590136592656317803
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750036454947828}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.3
+  m_Speed: 2
+  m_Acceleration: 3
+  avoidancePriority: 10
+  m_AngularSpeed: 50
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &1455883582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750036454947828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67993bbde90784643988c8867826c2e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1788031517231208
 GameObject:
   m_ObjectHideFlags: 0
