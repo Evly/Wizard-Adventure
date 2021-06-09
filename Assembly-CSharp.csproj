@@ -69,6 +69,7 @@
      <Compile Include="Assets\Scripts\CharacterController.cs" />
      <Compile Include="Assets\Scripts\GameEvents.cs" />
      <Compile Include="Assets\Scripts\movEnemigos.cs" />
+     <Compile Include="Assets\Scripts\ResistenceController.cs" />
      <Compile Include="Assets\Scripts\Vigilar.cs" />
      <Compile Include="Assets\Scripts\WeaponController.cs" />
      <Compile Include="Assets\Space Shooter Template FREE\Scripts\Bonus.cs" />
