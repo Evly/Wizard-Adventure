@@ -41,6 +41,43 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			m_Rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 			m_OrigGroundCheckDistance = m_GroundCheckDistance;
 		}
+		/*	var isLoadGame = ProjectVars.Instance.StringActiveBetweenScenes;
+			if(isLoadGame == "LoadGame"){
+				data = SaveSystem.LoadPlayer();
+				level = data.level;
+				health = data.health;
+
+				Vector3 position;
+				position.x = data.position[0];
+				position.y = data.position[1];
+				position.z = data.position[2];
+				transform.position = position;
+				ProjectVars.Instance.StringActiveBetweenScenes = "";
+			}
+		}
+
+		public int level = 3;
+		public int health = 40;
+		PlayerData data;
+	
+
+		void Update() {
+			if(Input.GetKeyDown(KeyCode.G)){
+				SaveSystem.SavePlayer(this);
+			}
+
+			if(Input.GetKeyDown(KeyCode.L)){
+				data = SaveSystem.LoadPlayer();
+				level = data.level;
+				health = data.health;
+
+				Vector3 position;
+				position.x = data.position[0];
+				position.y = data.position[1];
+				position.z = data.position[2];
+				transform.position = position;
+			}
+		}*/
 
 
 		public void Move(Vector3 move, bool crouch, bool jump)
